@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+header {
+    background-color: #8b0606;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.produto {
+    text-align: center;
+    margin: 40px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+button {
+    background-color: #4b0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Estilos específicos da WCAG */
+/* Exemplo de contraste de cores suficiente */
+body {
+    background-color: #fff;
+    color: #000000;
+}
+
+/* Tamanho de texto ajustável */
+body {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Alternativas de texto para imagens */
+img {
+    border: 2px solid #690000;
+    border-radius: 15px;
+    width: 300px;
+    height: 175px;
+}
+
+/* Foco visível */
+button:focus {
+    outline: 2px solid #333;
+}
+
+/* Legibilidade de texto */
+p {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+h1{
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+footer{
+    background-color: #690000;
+    text-align: center;
+    color: #fff;
+    justify-content: left;
+}
+
+iframe{
+
+    border-radius: 20px;
+    padding: 25px;
+    align-self: flex-start;
+    
+}
+
+.video {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+#video{
+    width: 100%;
+
+}
+
+::cue(legend){
+    background-color: rgb(0, 0, 0);
+    color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
